@@ -3,6 +3,6 @@
 const writeThis = (word) => {
   return word;
 };
-console.log(ten('Patata '.repeat(10)));
-console.log(ten('Aguacate '.repeat(7)));
-console.log(ten('Pizza '.repeat(50)));
+console.log(writeThis('Patata '.repeat(10)));
+console.log(writeThis('Aguacate '.repeat(7)));
+console.log(writeThis('Pizza '.repeat(50)));
