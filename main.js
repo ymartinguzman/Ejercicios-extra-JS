@@ -1,7 +1,6 @@
 'use strict';
 
-function ten() {
-  return 'patata';
+function ten(a) {
+  return a;
 }
-
-console.log('patata '.repeat(10));
+console.log(ten('patata ').repeat(10));
