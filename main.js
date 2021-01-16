@@ -3,6 +3,10 @@
 const writeThis = (word) => {
   return word;
 };
-console.log(writeThis('Patata '.repeat(10)));
-console.log(writeThis('Aguacate '.repeat(7)));
-console.log(writeThis('Pizza '.repeat(50)));
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+
+console.log(writeThis('Patata ') + getRandomNumber(10));
+console.log(writeThis('Aguacate ') + getRandomNumber(10));
+console.log(writeThis('Pizza ') + +getRandomNumber(10));
