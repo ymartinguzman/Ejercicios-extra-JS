@@ -1,7 +1,7 @@
 'use strict';
 
-function ten(a) {
-  return a;
+function ten(word) {
+  return word;
 }
 console.log(ten('Patata'));
 console.log(ten('Aguacate'));
