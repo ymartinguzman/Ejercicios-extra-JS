@@ -1,7 +1,7 @@
 'use strict';
 
 const writeThis = (word) => {
-  return word;
+  return console.log(word);
 };
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
@@ -30,11 +30,12 @@ const myWordList = [
   },
 ];
 
-// let list = '';
+function writeMyArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let x = 0; x < array[i].total; x++) {
+      writeThis(array[i].text);
+    }
+  }
+}
 
-// function writeMyArray([]) {
-//   for (let i = 0; i < list.length; i++) {
-//     console.log(writeThis[i].text.myWordList[i].total);
-//   }
-// }
-//writeMyArray();
+writeMyArray(myWordList);
